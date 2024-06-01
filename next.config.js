@@ -1,10 +1,8 @@
 // next.config.js
-const isProd = process.env.NODE_ENV === "production";
 
 const nextConfig = {
   output: "export",
-  assetPrefix: isProd ? "/<Profile>/" : "",
-  basePath: isProd ? "/<Profile>" : "",
+  assetPrefix: "/Profile.github.io",
+  basePath: "/Profile.github.io",
 };
 module.exports = nextConfig;
-// export default module.exports;
